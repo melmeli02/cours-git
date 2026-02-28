@@ -1,6 +1,7 @@
 def greet(name):
-    return f"Hello{name}"
+    return f"Hello{firstname} {lastname}"
 
     if __name__ == "__name__":
-        name =input("enter your name please")
-        print(greet(name))
+        firstname =input("enter your first name please")
+        lastname =input("enter your last name please")
+        print(greet(firstname, lastname))
